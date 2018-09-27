@@ -17,6 +17,7 @@ var tweets = [
     
     ];
     
+    /// for pulling in tweets only from one specific user
     tweets.forEach (function(tweet) { 
         if (tweet.username === "@EricIsAJedi2018") {
     
@@ -36,5 +37,5 @@ var tweets = [
    
             body.appendChild(tweetContainerDiv);
         }
-    }); S
+    }); 
         
